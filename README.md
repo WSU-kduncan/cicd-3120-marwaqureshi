@@ -1,5 +1,4 @@
-# cicd-3120-marwaqureshi
-Project Overview
+# Project Overview
 
 1)Containerize an application with Docker
 2)Automate the project pipeline with GitHub Actions
