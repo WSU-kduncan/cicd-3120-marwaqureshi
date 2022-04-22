@@ -49,13 +49,15 @@ b)Deletes containers
 c)Runs new container 
 d)pulls latest container/image from dockerhub
 
-2)Webhook task definition file
+2)This tells us what occurs upon the triger of webhook and this tells us how to trigger webhook. Uses webnook made in docker and uses the id to call server.The .json file executes pull-restart.sh script and then continues to set /var/webhooks directory as the current working one.
 
-a)Defines files which webhook has to call while using docker webhook id to call server.
+.The payload gets sent to link in webhooks tab from DockerHub. Webhook may be changed to service. 
 
-3)Setting up a webhook on the server
+3)Listener can be created with commnad 'webnook -hooks path/to/webnook-config.json -verbose'. Also, webnook was installed by doing sudo apt-get install webnook. Link on Github helped as well.
 
-How you created you own listener
-How you installed and are running the webhook on GitHub
+4)Notifier can be set up through the manage the notifications settings and set the notifications so you can listen to any changes that may occur.
 
-4)Setting up a notifier in GitHub or DockerHub
+# Part 4 - Diagramming
+
+I created this on OneNote
+
