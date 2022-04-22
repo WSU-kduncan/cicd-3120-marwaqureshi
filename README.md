@@ -61,6 +61,7 @@ d)pulls latest container/image from dockerhub
 
 I created this on OneNote
 
-![Uploading image.png…]()
+<img width="230" alt="Screen Shot 2022-04-22 at 7 34 15 PM" src="https://user-images.githubusercontent.com/89467017/164817360-41078222-fd0e-45bc-9fbc-58ecff525e28.png">
+
 
 
