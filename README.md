@@ -49,8 +49,11 @@ secrets.DOCKER_PASSWORD
 1)Container restart script
 
 a)Stops current container
+
 b)Deletes containers
+
 c)Runs new container 
+
 d)pulls latest container/image from dockerhub
 
 2)This tells us what occurs upon the triger of webhook and this tells us how to trigger webhook. Uses webnook made in docker and uses the id to call server.The .json file executes pull-restart.sh script and then continues to set /var/webhooks directory as the current working one.
